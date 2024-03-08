@@ -1,2 +1,3 @@
 envRegister
 .DS_Store
+./backend/config.py

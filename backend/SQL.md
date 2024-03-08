@@ -15,3 +15,13 @@ drop database {Name};
 ```SQL
 show database {Name};
 ```
+
+<h3>將資料寫入 MySQL 資料庫
+<h4>使用變數能防止SQL injection
+
+```python
+query = "INSERT INTO account (account,password) VALUES (%s, %s)"
+values = (account, password)
+cursor.execute(query, values)
+db.commit()
+```
