@@ -1,8 +1,12 @@
 專案目的-製作登入流程
 V1(第一版)
+
 01.main.html使用表單欄位(form)
+
 02.使用fun.js使用ajax傳送資料到flask
+
 03.使用flask架設aplicaton sever接收資料
+
 04.接api收到的資料丟到sql裡
 
 <h2>===完成進度===
